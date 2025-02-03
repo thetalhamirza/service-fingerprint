@@ -1,4 +1,4 @@
-# Service Banner
+# Service Fingerprint Scanner
 
 A simple yet effective Python script designed to perform service banner grabbing from specified ports on a target IP. This script helps identify services running on open ports by retrieving their banners.
 
