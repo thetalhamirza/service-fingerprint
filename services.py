@@ -15,6 +15,8 @@ def get_service_banner(ip, port):
         sock.send(b"GET / HTTP/1.1\r\nHost: " + ip.encode() + b"\r\n\r\n")
         banner = sock.recv(1024)
         sock.close()
+
+        return banner.decode('utf-8', errors='ignore')
     except Exception:
         return None
 
