@@ -12,7 +12,7 @@ A simple yet effective Python script designed to perform service banner grabbing
 ## Usage
 
 ```bash
-python service_banner_scanner.py <ip> -p <ports>
+python services.py <ip> -p <ports>
 ```
 
 ### Parameters:
@@ -23,7 +23,7 @@ python service_banner_scanner.py <ip> -p <ports>
 ### Example:
 
 ```bash
-python service_banner_scanner.py 192.168.1.5 -p 21,22,80,443
+python services.py 192.168.1.5 -p 21,22,80,443
 ```
 
 This command scans ports **21, 22, 80, and 443** on IP `192.168.1.5` for service banners.
